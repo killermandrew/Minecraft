@@ -31,7 +31,7 @@
       <sprite>sprites\spr_slot</sprite>
       <sprite>sprites\spr_empty</sprite>
       <sprite>sprites\spr_guideselect</sprite>
-      <sprite>sprites\sprite22</sprite>
+      <sprite>sprites\spr_inv</sprite>
     </sprites>
     <sprites name="grp_items">
       <sprite>sprites\spr_dirt_item</sprite>
@@ -93,8 +93,39 @@
         <objects name="grp_inv">
           <object>objects\obj_inv</object>
           <object>objects\obj_inv_slot</object>
-          <object>objects\obj_inv_slot0</object>
-          <object>objects\obj_inv_slot1</object>
+          <objects name="grp_inv_row1">
+            <object>objects\obj_inv_slot0</object>
+            <object>objects\obj_inv_slot1</object>
+            <object>objects\obj_inv_slot2</object>
+            <object>objects\obj_inv_slot3</object>
+            <object>objects\obj_inv_slot4</object>
+            <object>objects\obj_inv_slot5</object>
+            <object>objects\obj_inv_slot6</object>
+            <object>objects\obj_inv_slot7</object>
+            <object>objects\obj_inv_slot8</object>
+          </objects>
+          <objects name="grp_inv_row2">
+            <object>objects\obj_inv_slot9</object>
+            <object>objects\obj_inv_slot10</object>
+            <object>objects\obj_inv_slot11</object>
+            <object>objects\obj_inv_slot12</object>
+            <object>objects\obj_inv_slot13</object>
+            <object>objects\obj_inv_slot14</object>
+            <object>objects\obj_inv_slot15</object>
+            <object>objects\obj_inv_slot16</object>
+            <object>objects\obj_inv_slot17</object>
+          </objects>
+          <objects name="grp_inv_row3">
+            <object>objects\obj_inv_slot18</object>
+            <object>objects\obj_inv_slot19</object>
+            <object>objects\obj_inv_slot20</object>
+            <object>objects\obj_inv_slot21</object>
+            <object>objects\obj_inv_slot22</object>
+            <object>objects\obj_inv_slot23</object>
+            <object>objects\obj_inv_slot24</object>
+            <object>objects\obj_inv_slot25</object>
+            <object>objects\obj_inv_slot26</object>
+          </objects>
         </objects>
       </objects>
     </objects>

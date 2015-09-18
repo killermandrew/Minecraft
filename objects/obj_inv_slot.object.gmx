@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>place = false;
+
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(sprite_index,image_index,x,y);
+            <string>/*
+draw_sprite(sprite_index,image_index,x,y);
 draw_sprite(obj_slot_control.spr[obj_slot_control.inv[index,0]],0,x+2,y+2);
 draw_set_font(font_8);
 c_gray2 = make_color_rgb(80,80,80);
