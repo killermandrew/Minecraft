@@ -3,7 +3,7 @@
   <spriteName>spr_slot</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-100000</depth>
+  <depth>-10010</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>visible = false;
 vis = false
-
 </string>
           </argument>
         </arguments>
@@ -50,8 +49,8 @@ vis = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = obj_inv.x+154;
-y = view_yview+376;
+            <string>x = obj_inv.x+10;
+y = view_yview+157;
 
 if keyboard_check_pressed(ord("E"))
 {

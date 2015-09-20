@@ -77,6 +77,19 @@ instance_create(x,y,obj_inv_slot24)
 instance_create(x,y,obj_inv_slot25)
 instance_create(x,y,obj_inv_slot26)
 
+//inv craft slot
+instance_create(x,y,obj_inv_craft0)
+instance_create(x,y,obj_inv_craft1)
+instance_create(x,y,obj_inv_craft2)
+instance_create(x,y,obj_inv_craft3)
+instance_create(x,y,obj_inv_craft)
+
+//inv armor
+instance_create(x,y,obj_inv_armor_head)
+instance_create(x,y,obj_inv_armor_chest)
+instance_create(x,y,obj_inv_armor_legs)
+instance_create(x,y,obj_inv_armor_boots)
+
 </string>
           </argument>
         </arguments>
