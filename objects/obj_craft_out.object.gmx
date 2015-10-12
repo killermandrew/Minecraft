@@ -53,29 +53,6 @@ image_speed = 0;
             <string>x = obj_inv.x+150;
 y = obj_inv.y-73;
 
-if keyboard_check_pressed(ord("E"))
-{
-    if vis = false
-    {
-        vis = true;
-    }
-    else
-    {
-        vis = false;
-    }
-}
-if vis = true
-{
-    visible = true;
-}
-if vis = false
-{
-    visible = false;
-}
-
-
-
-
 </string>
           </argument>
         </arguments>
