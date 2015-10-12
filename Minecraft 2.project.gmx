@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="grp_bllcoks">
+    <sprites name="grp_blocks">
       <sprite>sprites\spr_grass</sprite>
       <sprite>sprites\spr_stone</sprite>
       <sprite>sprites\spr_dirt</sprite>
