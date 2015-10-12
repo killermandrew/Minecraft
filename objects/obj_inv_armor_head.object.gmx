@@ -50,7 +50,7 @@ vis = false
           <argument>
             <kind>1</kind>
             <string>x = obj_inv.x-166;
-y = view_yview+112;
+y = obj_inv.y-138;
 
 if keyboard_check_pressed(ord("E"))
 {

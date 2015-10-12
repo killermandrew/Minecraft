@@ -49,7 +49,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if place_meeting(x,y,obj_block)
+            <string>
+if obj_inv.inventory = false
+{
+if place_meeting(x,y,obj_block)
 or place_meeting(x,y,obj_tree_parent)
 or place_meeting(x,y,obj_player)
 or place_meeting(x,y-3,obj_player)
@@ -74,6 +77,11 @@ else
         obj_slot.place = false;
     }
 }
+}else
+{
+    obj_slot.place = false;
+}
+
 </string>
           </argument>
         </arguments>
@@ -96,8 +104,17 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = mouse_x - 16
-y = mouse_y - 16
+            <string>
+if obj_inv.inventory = true
+{
+    visible = false
+}
+if obj_inv.inventory = false
+{
+    x = mouse_x - 16
+    y = mouse_y - 16
+    visible = true
+}
 </string>
           </argument>
         </arguments>

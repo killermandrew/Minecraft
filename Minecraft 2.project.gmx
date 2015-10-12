@@ -13,6 +13,8 @@
       <sprite>sprites\spr_bedrock</sprite>
       <sprite>sprites\spr_break</sprite>
       <sprite>sprites\spr_cobblestone</sprite>
+      <sprite>sprites\spr_planks_oak</sprite>
+      <sprite>sprites\spr_planks_birch</sprite>
     </sprites>
     <sprites name="grp_trees">
       <sprite>sprites\spr_wood_oak</sprite>
@@ -32,6 +34,7 @@
       <sprite>sprites\spr_empty</sprite>
       <sprite>sprites\spr_guideselect</sprite>
       <sprite>sprites\spr_inv</sprite>
+      <sprite>sprites\spr_inv_slot</sprite>
     </sprites>
     <sprites name="grp_items">
       <sprite>sprites\spr_dirt_item</sprite>
@@ -47,6 +50,8 @@
     <script>scripts\scr_render.gml</script>
     <script>scripts\scr_tree_generate.gml</script>
     <script>scripts\scr_grav.gml</script>
+    <script>scripts\scr_crafting1.gml</script>
+    <script>scripts\scr_crafting2.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_8</font>
@@ -60,6 +65,7 @@
       <object>objects\obj_cobblestone</object>
       <object>objects\obj_stone</object>
       <object>objects\obj_bedrock</object>
+      <object>objects\obj_planks_oak</object>
     </objects>
     <objects name="gpr_player">
       <object>objects\obj_player</object>
@@ -93,6 +99,29 @@
         <objects name="grp_inv">
           <object>objects\obj_inv</object>
           <object>objects\obj_inv_slot</object>
+          <object>objects\obj_inv_mouse</object>
+          <objects name="grp_inv_row0">
+            <object>objects\obj_inv_slot0</object>
+            <object>objects\obj_inv_slot1</object>
+            <object>objects\obj_inv_slot2</object>
+            <object>objects\obj_inv_slot3</object>
+            <object>objects\obj_inv_slot4</object>
+            <object>objects\obj_inv_slot5</object>
+            <object>objects\obj_inv_slot6</object>
+            <object>objects\obj_inv_slot7</object>
+            <object>objects\obj_inv_slot8</object>
+          </objects>
+          <objects name="grp_inv_row1">
+            <object>objects\obj_inv_slot27</object>
+            <object>objects\obj_inv_slot28</object>
+            <object>objects\obj_inv_slot29</object>
+            <object>objects\obj_inv_slot30</object>
+            <object>objects\obj_inv_slot31</object>
+            <object>objects\obj_inv_slot32</object>
+            <object>objects\obj_inv_slot33</object>
+            <object>objects\obj_inv_slot34</object>
+            <object>objects\obj_inv_slot35</object>
+          </objects>
           <objects name="grp_inv_row2">
             <object>objects\obj_inv_slot9</object>
             <object>objects\obj_inv_slot10</object>
@@ -103,17 +132,6 @@
             <object>objects\obj_inv_slot15</object>
             <object>objects\obj_inv_slot16</object>
             <object>objects\obj_inv_slot17</object>
-          </objects>
-          <objects name="grp_inv_row1">
-            <object>objects\obj_inv_slot0</object>
-            <object>objects\obj_inv_slot1</object>
-            <object>objects\obj_inv_slot2</object>
-            <object>objects\obj_inv_slot3</object>
-            <object>objects\obj_inv_slot4</object>
-            <object>objects\obj_inv_slot5</object>
-            <object>objects\obj_inv_slot6</object>
-            <object>objects\obj_inv_slot7</object>
-            <object>objects\obj_inv_slot8</object>
           </objects>
           <objects name="grp_inv_row3">
             <object>objects\obj_inv_slot18</object>
@@ -127,11 +145,12 @@
             <object>objects\obj_inv_slot26</object>
           </objects>
           <objects name="grp_inv_craft">
-            <object>objects\obj_inv_craft0</object>
-            <object>objects\obj_inv_craft1</object>
-            <object>objects\obj_inv_craft2</object>
-            <object>objects\obj_inv_craft3</object>
-            <object>objects\obj_inv_craft</object>
+            <object>objects\obj_craft_control</object>
+            <object>objects\obj_craft_slot36</object>
+            <object>objects\obj_craft_slot37</object>
+            <object>objects\obj_craft_slot38</object>
+            <object>objects\obj_craft_slot39</object>
+            <object>objects\obj_craft_out</object>
           </objects>
           <objects name="grp_inv_armor">
             <object>objects\obj_inv_armor_head</object>

@@ -45,7 +45,7 @@ or place_meeting(x+6,y-6,obj_player)
 or place_meeting(x-6,y-6,obj_player)
 {
     slot=-1;
-    for(i=0; i<9; i+=1)
+    for(i=0; i<26; i+=1)
     {
         if obj_slot_control.inv[i,0]=index && obj_slot_control.inv[i,1] < 64
         {
@@ -55,7 +55,7 @@ or place_meeting(x-6,y-6,obj_player)
     }
     if slot = -1
     {
-        for(i=0; i<9; i+=1)
+        for(i=0; i<26; i+=1)
         {
             if obj_slot_control.inv[i,0]=0
             {

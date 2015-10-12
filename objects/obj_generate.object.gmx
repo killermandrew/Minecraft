@@ -47,9 +47,9 @@ instance_create(view_xview+272,view_yview+456,obj_guideselect);
 instance_create(room_width/2,1728,obj_player);
 instance_create(room_width/2,1728,obj_arms);
 
-instance_create(x,y,obj_inv_slot)
 instance_create(x,y,obj_inv)
-instance_create(x,y,obj_inv_slot0)
+instance_create(x,y,obj_inv_mouse)
+instance_create(obj_inv.x-166,view_yview+288,obj_inv_slot0)
 instance_create(x,y,obj_inv_slot1)
 instance_create(x,y,obj_inv_slot2)
 instance_create(x,y,obj_inv_slot3)
@@ -76,13 +76,22 @@ instance_create(x,y,obj_inv_slot23)
 instance_create(x,y,obj_inv_slot24)
 instance_create(x,y,obj_inv_slot25)
 instance_create(x,y,obj_inv_slot26)
+instance_create(x,y,obj_inv_slot27)
+instance_create(x,y,obj_inv_slot28)
+instance_create(x,y,obj_inv_slot29)
+instance_create(x,y,obj_inv_slot30)
+instance_create(x,y,obj_inv_slot31)
+instance_create(x,y,obj_inv_slot32)
+instance_create(x,y,obj_inv_slot33)
+instance_create(x,y,obj_inv_slot34)
+instance_create(x,y,obj_inv_slot35)
 
 //inv craft slot
-instance_create(x,y,obj_inv_craft0)
-instance_create(x,y,obj_inv_craft1)
-instance_create(x,y,obj_inv_craft2)
-instance_create(x,y,obj_inv_craft3)
-instance_create(x,y,obj_inv_craft)
+instance_create(x,y,obj_craft_slot36)
+instance_create(x,y,obj_craft_slot37)
+instance_create(x,y,obj_craft_slot38)
+instance_create(x,y,obj_craft_slot39)
+instance_create(x,y,obj_craft_out)
 
 //inv armor
 instance_create(x,y,obj_inv_armor_head)
